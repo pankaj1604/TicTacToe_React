@@ -1,11 +1,15 @@
 .container {
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .title {
-    margin-top: 50px;
+    margin: 50px 0 20px 0;
     color: #fff;
-    font-size: 60px;
+    font-size: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,8 +31,8 @@
 
 .boxes {
     display: flex;
-    height: 180px;
-    width: 180px;
+    height: 135px;
+    width: 135px;
     background: #1f3540;
     border: 4px solid #0f1b21;
     border-radius: 12px;
@@ -37,8 +41,15 @@
 }
 
 .board {
-    height: 600px;
-    width: 564px;
     display: flex;
-    margin: auto;
+    margin: 8px auto;
+}
+
+.boxes img {
+    margin: 35px;
+}
+
+.title img {
+    padding: 20px;
+    height: 75px;
 }
